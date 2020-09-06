@@ -1,24 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #fafafa;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(121, 0, 0);
+}
+.active {
+  background-color: #db9a0c;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 5px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tobias Woode's Portfolio</title>
+
 </head>
 <body>
-    <h3>Tobias Ekow Woode</h3>
-    <p>
-        Tobias considers himself an extroverted leader challenged with the mission
-        of bridging the gap between Christian spiritual excellence and earthly success.
-        He is currently studying <strong><em>Management Information Systems</em></strong> at <a href="https://www.ashesi.edu.gh/">Ashesi University.</a>
-        More often than not you would find that Tobias refers to himself as Toby (For Short). 
-        He enjoys reading, writing, playing fighting games and spending time with friends.
-        Tobias posseses dual citezneship for Ghana and Nigeria respectively but also has scottish blood in his veins.
-
-
-
     
-    </p>
+    <div>
+        <ul>
+            <li><a href="index.html"> Home Page</a></li>
+            <li><a href="skills.html"> Skills Page</a></li>
+            <li><a href="coursework.html"> Coursework Page</a></li>
+            <li><a href="experience.html"> Experience Page</a></li>
+            <li><a href="projects.html"> Projects Page</a></li>
+            <li><a href="interest.html"> Interestes Page</a></li>
+
+        </ul>     
+    </div>
+
+    <div style="width: 1000px; margin: 20px auto; padding: 30px; background-color: #fafafa;">
+<header>
+    <h2 style="text-align: center;">Tobias Ekow Woode</h2>
+</header>
     
+    <h3 style="text-align: center;"><em>Category: Self</em></h3>
+
+    <img src="images/Profile.JPG" alt="Tobias' Profile Photo" height="250" style="float: left; margin: 20px auto; padding: 30px; background-color: #fafafa;">
+    
+
+    <div>
+        <p>
+            <h4>
+                Bio Description
+            </h4>
+        </p>
+        <p>
+            
+            Tobias considers himself an extroverted leader challenged with the mission
+            of bridging <br> the gap between Christian spiritual excellence and earthly success.
+            He is currently studying <br> <strong><em>Management Information Systems</em></strong> at <a href="https://www.ashesi.edu.gh/">Ashesi University.</a>
+            More often than not you would <br> find that Tobias refers  to himself as Toby (For Short). 
+            He enjoys reading, writing, playing <br> fighting games and spending time with friends.
+            Tobias posseses dual citezneship for Ghana <br> and Nigeria respectively but also has scottish blood in his veins.
+    
+        </p>
+    </div>
+    <div></div>
+    
+    <div class="gallery">   
+          <img src="images/Durag.JPG" alt="The Set Up" width="600" height="400">
+        <div class="desc">The Set Up</div>
+      </div>
+      
+      <div class="gallery">
+          <img src="images/Point.jpg" alt="The Focus" width="600" height="400">
+        <div class="desc">The Focus</div>
+      </div>
+      
+      <div class="gallery">      
+          <img src="images/Square.JPG" alt="The Vision" width="600" height="400">
+        <div class="desc">The Smile</div>
+      </div>
+      
+      
 </body>
 </html>
