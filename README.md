@@ -10,3 +10,6 @@ This repository contains a single file, a script for gathering the basic configu
 ## Using the file
 
 Please refer to your lab instructions for definitive directions. In general, clone this repository to a new repository in your user space.
+
+# Link to Github Pages Website
+https://3b1s0n.github.io/lab-1/
